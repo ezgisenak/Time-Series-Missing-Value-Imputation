@@ -54,11 +54,12 @@ The dataset contains hourly O₃ (ozone) concentration measurements from 8 air q
 ## Project Structure
 
 ```
-├── main.ipynb                 # Main Jupyter notebook with all experiments
+├── main.ipynb                # Main Jupyter notebook with all experiments
 ├── data_matrix.csv           # Original air quality dataset
 ├── missing_mask.csv          # Generated missing value mask
 ├── missing_generator.py      # Utility for creating missing value patterns
 ├── README.md                 # This file
+├── TOML_Report.pdf           # Report of the project
 └── requirements.txt          # Python dependencies
 ```
 
@@ -134,27 +135,3 @@ pip install "numpy<2"
 - **LSTM**: 30 epochs, batch size 32, learning rate 0.001
 - **Autoencoder**: 100 epochs, learning rate 0.01
 - **MICE**: 10 iterations, random state 42
-
-## Future Work
-
-1. **Advanced neural architectures**: Transformer-based models
-2. **Ensemble methods**: Combining multiple imputation techniques
-3. **Real-time imputation**: Online learning approaches
-4. **Uncertainty quantification**: Confidence intervals for imputed values
-5. **Cross-validation**: More robust evaluation framework
-
-## Contributing
-
-Feel free to contribute by:
-- Adding new imputation methods
-- Improving evaluation metrics
-- Enhancing visualization capabilities
-- Optimizing model performance
-
-## License
-
-This project is for educational and research purposes.
-
-## Contact
-
-For questions or suggestions, please open an issue in the repository.
